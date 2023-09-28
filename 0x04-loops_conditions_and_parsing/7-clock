@@ -3,16 +3,16 @@
 
 hour=0
 min=0
-while [ $hour -le 11 ]; do
+while [ $hour -le 12 ]; do
 	if [[ $min -eq 59 ]]; then
 		hour=$((hour + 1))
 		min=0
 	fi
-	if [[ $min -eq 0 ]]; then
+	if [[ $min -eq 0 && $hour -lt 13 ]]; then
 		echo "Hour: $hour"
 	fi
 	min=$((min + 1))
-	if [[ $hour -ne 12 ]]; then
+	if [[ $hour -lt 13 ]]; then
 		echo $min
 	fi
 done
