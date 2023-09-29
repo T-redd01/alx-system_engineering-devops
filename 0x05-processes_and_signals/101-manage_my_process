@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # managing a process
 
-if [[ $# -lt 0 || -z "$(echo $1 | grep -E 'start|stop|restart')" ]]; then
+if [[ "$#" -lt 0 ]]; then
 	echo "Usage: manage_my_process {start|stop|restart}"
 	exit
 fi
@@ -25,5 +25,9 @@ case "$1" in
 		./manage_my_process &
 		echo "$$" > /var/run/my_process.pid
 		echo "manage_my_process restarted"
+		;;
+
+	*)
+		echo "Usage: manage_my_process {start|stop|restart}"
 		;;
 esac
