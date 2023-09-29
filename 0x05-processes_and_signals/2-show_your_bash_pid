@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# display only bash processes
+
+procs=$(ps -aux)
+echo "$procs" | grep "bash"
