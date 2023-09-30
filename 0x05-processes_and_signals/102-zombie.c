@@ -33,10 +33,12 @@ int main(void)
 		{
 			pid = fork();
 			if (pid == 0)
+			{
 				printf("Zombie process created, PID: %d\n", getpid());
+				infinite_while();
+			}
 		}
 	}
 
-	infinite_while();
 	return (0);
 }
