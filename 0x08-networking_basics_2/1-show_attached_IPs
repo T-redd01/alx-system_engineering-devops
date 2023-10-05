@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# parsing ips
+
+#addresses=$(ifconfig | grep "inet" | tr "[a-zA-z]" " ")
+#ifconfig | grep "inet" | tr -d "[a-zA-z]" | cut -f 1
+ifconfig | grep "inet" | cut -d " " -f 10

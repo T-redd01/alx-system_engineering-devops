@@ -1,1 +1,4 @@
+#!/usr/bin/env bash
+# display listening ports
+
 netstat -tunlp
