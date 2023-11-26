@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# generate keys with pass
+
+ssh-keygen -b 4096 -N "betty" -f school
