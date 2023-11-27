@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# set up nginx
+
+search = "root /var/www/html;"
+replace = "root /;"
+
+apt-get update
+apt-get -y install nginx
+
+ufw allow 'Nginx HTTP'
+
+cd 
+sed -i 's/$search/$replace/1' /etc/nginx/sites-available/default
+echo "Hello World!" > /index.html
+
+service restart nginx
