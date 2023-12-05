@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# install and config nginx with host name in resp head
+
+sudo apt-get update
+sudo apt-get install -y nginx
+
+sudo ufw allow "Nginx HTTP"
+sudo ufw allow 22
+
+echo "Hello World!" > /var/www/html/index.html
+
+sed -i 's/try_files $uri $uri\/ =404;/try_files $uri $uri\/ =404;\nadd_header X-Served-By $(hostname)/'
+
+sudo service nginx restart
