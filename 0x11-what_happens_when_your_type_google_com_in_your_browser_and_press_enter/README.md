@@ -1,0 +1,3 @@
+Resources:
+
+Find own resources
