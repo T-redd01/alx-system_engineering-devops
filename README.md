@@ -34,3 +34,44 @@ Resources:
 [Research & Project Approval Overview](https://intranet.alxswe.com/concepts/138)
 
 
+
+Landing Page
+
+Examples of Landing Pages:
+[Slack](https://slack.com/)
+[Stripe](https://stripe.com/)
+[Ghost](https://ghost.org/)
+[Coinbase](https://www.coinbase.com/)
+
+Examples of non-Landing Pages:
+[Amazon](https://www.amazon.com/)
+[Airbnb](https://www.airbnb.co.za/?locale=en&_set_bev_on_new_domain=1707891208_OThlZDZkM2ZkODJj)
+[Booking.com](https://www.booking.com/)
+[Pinterest](https://za.pinterest.com/)
+
+note: accessed from an incognito browser
+
+
+More information about landing pages:
+[Instapage - 25 of the Best Landing Pages](https://instapage.com/blog/best-landing-page-examples)
+[Hubspot - What is a landing page](https://blog.hubspot.com/blog/tabid/6307/bid/7177/what-is-a-landing-page-and-why-should-you-care.aspx)
+[Quora – What is the difference between a landing page and a web page?](https://www.quora.com/What-is-the-difference-between-a-landing-page-and-a-website)
+
+Goal
+Your Portfolio Project landing page is intended to:
+
+Share information about your project
+Tell the story about yourself as the developer
+Direct traffic to your deployed app, and your github
+
+
+Resources:
+
+You’re welcome to build your own. We recommend using [github pages](https://pages.github.com/). Select “Project site” to see instructions for creating a landing page for a repo.
+
+If you would instead like to use an external service, here are some free options:
+
+[Wix](https://www.wix.com/)
+[MailChimp](https://mailchimp.com/features/landing-pages/?currency=USD)
+[QuickPages](https://quickpages.co/)
+
