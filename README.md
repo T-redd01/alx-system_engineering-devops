@@ -87,3 +87,30 @@ Here are some great speakers to observe and pattern your speaking after:
 [Steve Jobs at Stanford Commencement 2005](https://www.youtube.com/watch?v=1i9kcBHX2Nw)
 [Sheryl Sandberg: Take the Lead Challenge](https://www.youtube.com/watch?v=_U-CRqK8M1c)
 [Randy Pausch’s Last Lecture: Achieving your childhood dreams](https://www.youtube.com/watch?v=ji5_MqicxSo)
+
+
+Blog post:
+
+Examples:
+
+[How I designed and launched the official Scrabble keyboard](https://hackernoon.com/follow-your-dreams-literally-how-i-designed-and-launched-the-official-scrabble-keyboard-d1ce3ab0f047)
+[Announcing SweetAlert](https://edwards.medium.com/announcing-sweetalert-2-0-eebd2f66bac2)
+[Mistakes I made writing a Django App (and how I fixed them)](https://hackernoon.com/mistakes-i-made-writing-a-django-app-and-how-i-fixed-them-16de4e632042)
+
+
+Good coding habits:
+
+[comments  example from Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-python-3)
+[What your code repository says about you](https://opensource.com/open-organization/17/1/repo-tells-a-story)
+[ awesome list of README](https://github.com/matiassingers/awesome-readme)
+
+what should be in README:
+
+Project Name
+Introduction
+	Must include link to your deployed site, final project blog article, author(s) LinkedIn
+Installation
+Usage
+Contributing
+Related projects
+Licensing
